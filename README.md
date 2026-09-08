@@ -8,8 +8,6 @@ The goal is to explore how external customer devices can be securely connected, 
 
 A pre-installed camera serves as the first reference device and provides a practical starting point for the hackathon challenges.
 
----
-
 ## 1. Hackathon Goal
 
 The hackathon explores how Bring Your Own Device concepts can enable new applications and services for commercial vehicles.
@@ -21,8 +19,6 @@ Participants will:
 - Connect their solution with the digital.auto environment
 - Explore how additional devices could be integrated in the future
 - Provide feedback on the BYOD concept and developer experience
-
----
 
 ## 2. Bring Your Own Device Concept
 
@@ -45,8 +41,6 @@ For this hackathon, a camera is provided as the first reference device.
 
 The camera is therefore not the limitation of the BYOD concept, but an example of how external devices can become part of the vehicle ecosystem.
 
----
-
 ## 3. Challenge Areas
 
 Teams can choose one of the following challenge areas.
@@ -64,8 +58,6 @@ Possible topics:
 - Loading completeness
 - Theft prevention
 
----
-
 ### Challenge 2: Dangerous Goods Monitoring
 
 Explore how external devices and cameras can improve the handling and transport of hazardous materials.
@@ -81,7 +73,6 @@ Possible topics:
 - Supporting loading checks
 - Generating safety warnings
 
----
 
 ### Challenge 3: Animal Transport
 
@@ -96,7 +87,6 @@ Possible topics:
 - Transport safety
 - Well-being indicators
 
----
 
 ## 4. Think Beyond the Camera
 
@@ -112,7 +102,6 @@ During the hackathon, we encourage teams to think about:
 - How could the same application work with different devices?
 - What would a future BYOD ecosystem for commercial vehicles look like?
 
----
 
 ## 5. digital.auto Playground
 
@@ -179,7 +168,6 @@ _TBD_
 
 _TBD_
 
----
 
 ## 7. Getting Started
 
@@ -214,7 +202,6 @@ Prepare a short demonstration showing:
 - Vehicle or digital.auto interaction
 - Potential future BYOD extensions
 
----
 
 ## 8. Expected Output
 
@@ -233,7 +220,6 @@ Optional:
 - Ideas for future vehicle integration
 - Feedback on the BYOD platform
 
----
 
 ## 9. Evaluation Criteria
 
@@ -248,7 +234,6 @@ Potential evaluation dimensions:
 - Scalability to additional devices
 - Demo quality
 
----
 
 ## 10. Feedback & Research
 
@@ -265,7 +250,6 @@ Participants may be invited to share feedback regarding:
 
 More information will be provided during the event.
 
----
 
 ## 11. Resources
 
