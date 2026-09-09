@@ -115,59 +115,69 @@ During the kickoff, participants will receive an introduction to:
 - Connecting external devices
 - Running and testing applications
 
-### Playground Access
-
-_TBD_
-
-### Example Prototype
-
-_TBD_
+# Hackathon Documentation: Working with digital.auto & Camera Feeds
 
 ---
 
-## 6. Technical Setup
+## 1. Getting Started with digital.auto Playground
 
+1. **Access the Platform**: Open the [digital.auto Playground](https://playground.digital.auto/).
+2. **Login & Select Model**: Log in, select your vehicle models, and choose the **Model IAA TRANSPORT**.
+3. **Create a Prototype**: Set up your prototype and select a **multi-files project**.
+   ![Create Prototype](Imgs/prototype%20name.png)
+4. **Develop in SDV Code**: Navigate to the **SDV Code** tab to write your source code and manage your project files.
+    ![File Structure & Prototype Name](Imgs/file%20struc.png)
 
-### 6.1 System Architecture
+---
 
-_TBD_
+## 2. Configuring and Running Your Runtime
 
-### 6.2 Camera Setup
+To execute your application inside the playground, you need to configure a runtime environment:
 
-_TBD_
+1. Open the terminal by clicking the arrow icon located in the **bottom right corner**.
+   ![Terminal Arrow](Imgs/Terminal%20arrow.png)
+2. Locate the runtime box to view current runtime information, then select **add runtime**.
+   ![Runtime Box & Dropdown](Imgs/runtime%20box.png)
+3. In the popup window, enter your assigned runtime name using the pre-filled prefix `Runtime-`.
+   ![Runtime Name Input](Imgs/runtime%20name.png)
+   * *Example*: For the name `IAA Hackathon`, enter `Runtime-IAA Hackathon`.
+   * **Note**: Your runtime name will be provided by your hackathon supervisor. Reach out to them directly if you haven't received it.
 
-### 6.3 Hardware Connection
+---
 
-_TBD_
+## 3. Utilizing the Dashboard
 
-### 6.4 digital.auto Connection
+* Use the **Dashboard** section to load plugins that allow you to monitor vehicle behavior virtually and track real-time API value changes.
+* Alternatively, you can embed and run a web application link directly within the dashboard view.
 
-_TBD_
+![Dashboard](Imgs/dashboard.png)
 
-### 6.5 APIs and Interfaces
+---
 
-_TBD_
+## 4. Example Prototype Reference
 
-### 6.6 Example Code
+To help you get started, review the official example prototype. This implementation demonstrates how to capture an image, trigger the vehicle headlights, and sound the horn when a sleepy driver is detected:
 
-_TBD_
+* [Example Prototype Code Link](https://playground.digital.auto/model/67d2eb3e880fe100272d033e/library/prototype/6a9684f804417b08156ceb7a/code)
 
-### 6.7 Repository Structure
+---
 
-_TBD_
+## 5. Accessing Camera Feeds and Endpoints
 
-### 6.8 Installation
+Three dedicated cameras have been set up for the hackathon. You can access their live feeds using the following stream links:
 
-_TBD_
+* **CAM -1**: `xxxxxxxxxxxxxxxxxxx`
+* **CAM -2**: `xxxxxxxxxxxxxxxxxxx`
+* **CAM -3**: `xxxxxxxxxxxxxxxxxxx`
 
-### 6.9 Running the Example
+### Snapshot Upload Endpoints
+Additional endpoints (`/xxx1`, `/xxx2`, `/xxx3`) are provided where your application can post captured images or routine snapshots. Once uploaded, these snapshots can be accessed dynamically via the following URLs:
 
-_TBD_
+* **CAM -1 Snapshot**: `yyyyyyyyyyyyyy`
+* **CAM -2 Snapshot**: `yyyyyyyyyyyyyy`
+* **CAM -3 Snapshot**: `yyyyyyyyyyyyyy`
 
-### 6.10 Troubleshooting
-
-_TBD_
-
+*Tip: Check the example prototype code for a working implementation of these API integrations.*
 
 ## 7. Getting Started
 
@@ -275,11 +285,13 @@ _TBD_
 
 ### Hackathon Support
 
-_TBD_
+Chris Cheng
+Mohammed Raihan Soniwala
 
 ### Technical Support
 
-_TBD_
+Chris Cheng
+Mohammed Raihan Soniwala
 
 ---
 
