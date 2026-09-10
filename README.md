@@ -2,7 +2,7 @@
 
 ## Bring Your Own Device: Unlocking Innovation for Software-Defined Commercial Vehicles
 
-digital.auto and Prototype Club invite teams to develop new solutions for Lightweight Commercial Vehicles based on a Bring Your Own Device (BYOD) platform.
+digital.auto and prototype.club invite teams to develop new solutions for Lightweight Commercial Vehicles (LCVs) based on a Bring-Your-Own-Device (BYOD) platform.
 
 The goal is to explore how external customer devices can be securely connected, onboarded, and integrated into software-defined commercial vehicles.
 
@@ -10,7 +10,7 @@ A pre-installed camera serves as the first reference device and provides a pract
 
 ## 1. Hackathon Goal
 
-The hackathon explores how Bring Your Own Device concepts can enable new applications and services for commercial vehicles.
+The hackathon explores how BYOD concepts can enable new applications and services for commercial vehicles.
 
 Participants will:
 
@@ -24,7 +24,7 @@ Participants will:
 
 ### What do we mean by BYOD?
 
-Bring Your Own Device describes an approach in which external devices can be connected to and integrated with a software-defined vehicle.
+Bring-Your-Own-Device describes an approach in which external devices can be connected to and integrated with a software-defined vehicle (SDV).
 
 Possible devices could include:
 
