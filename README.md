@@ -283,4 +283,4 @@ Mohammed Raihan Soniwala
 
 # License
 
-_TBD_
+The repository includes an open-source license file governing the terms of use, modification, and distribution, learn more in LICENSE file.
