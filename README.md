@@ -8,7 +8,7 @@ The goal is to explore how external customer devices can be securely connected, 
 
 A pre-installed camera serves as the first reference device and provides a practical starting point for the hackathon challenges.
 
-## 1. Hackathon Goal
+## Hackathon Goal
 
 The hackathon explores how BYOD concepts can enable new applications and services for commercial vehicles.
 
@@ -20,7 +20,7 @@ Participants will:
 - Explore how additional devices could be integrated in the future
 - Provide feedback on the BYOD concept and developer experience
 
-## 2. Bring Your Own Device Concept
+## Bring Your Own Device Concept
 
 ### What do we mean by BYOD?
 
@@ -41,7 +41,7 @@ For this hackathon, a camera is provided as the first reference device.
 
 The camera is therefore not the limitation of the BYOD concept, but an example of how external devices can become part of the vehicle ecosystem.
 
-## 3. Challenge Areas
+## Challenge Areas
 
 Teams can choose one of the following challenge areas.
 
@@ -88,7 +88,7 @@ Possible topics:
 - Well-being indicators
 
 
-## 4. Think Beyond the Camera
+## (Optional) Challange 4. Think Beyond the Camera
 
 The camera is the starting point, not the final goal.
 
@@ -102,8 +102,17 @@ During the hackathon, we encourage teams to think about:
 - How could the same application work with different devices?
 - What would a future BYOD ecosystem for commercial vehicles look like?
 
+## Additional Hackathon Sensor Inventory
 
-## 5. digital.auto Playground
+To support advanced prototyping and sensor fusion projects, the organizing team has a limited supply of extra hardware modules available upon request. Teams interested in expanding their application capabilities can borrow any of the following sensors:
+
+* **Radar Sensor**: Ideal for object detection, distance measurement, and proximity monitoring use cases.
+* **Bosch Gas Sensor**: Suitable for environmental monitoring, air quality tracking, and cabin air analysis.
+* **PM Sensor**: Enables precise particulate matter detection for air pollution and cabin environment monitoring.
+
+> **Note**: These components are available on a request basisand has to be setup on your own. If your team wishes to integrate any of these sensors into your solution, please coordinate with a hackathon supervisor or technical mentor to check availability.
+
+## digital.auto Playground
 
 The digital.auto Playground provides the software environment for developing and testing vehicle applications.
 
@@ -115,20 +124,27 @@ During the kickoff, participants will receive an introduction to:
 - Connecting external devices
 - Running and testing applications
 
-# Hackathon Documentation: Working with digital.auto & Camera Feeds
+> **Note**: Participants have to develop their application primarily on digital.auto playground.
 
----
+# Getting Started
+
+Select one of the three challenge areas and define your usecase.
+
+Define:
+
+- What problem are you solving?
+- Who is the user?
+- What should the camera or device detect?
+- What should happen after an event is detected?
 
 ## 1. Getting Started with digital.auto Playground
 
 1. **Access the Platform**: Open the [digital.auto Playground](https://playground.digital.auto/).
-2. **Login & Select Model**: Log in, select your vehicle models, and choose the **Model IAA TRANSPORT**.
-3. **Create a Prototype**: Set up your prototype and select a **multi-files project**.
+2. **Login & Select Model**: Log in, select your vehicle models, and choose the vehicle model **IAA Hannover Hackathon 2026**.
+3. **Create a Prototype**: Set up your prototype and select a **multi-files project** and name it as your team name.
    ![Create Prototype](Imgs/prototype%20name.png)
 4. **Develop in SDV Code**: Navigate to the **SDV Code** tab to write your source code and manage your project files.
     ![File Structure & Prototype Name](Imgs/file%20struc.png)
-
----
 
 ## 2. Configuring and Running Your Runtime
 
@@ -143,8 +159,6 @@ To execute your application inside the playground, you need to configure a runti
    * *Example*: For the name `IAA Hackathon`, enter `Runtime-IAA Hackathon`.
    * **Note**: Your runtime name will be provided by your hackathon supervisor. Reach out to them directly if you haven't received it.
 
----
-
 ## 3. Utilizing the Dashboard
 
 * Use the **Dashboard** section to load plugins that allow you to monitor vehicle behavior virtually and track real-time API value changes.
@@ -152,17 +166,7 @@ To execute your application inside the playground, you need to configure a runti
 
 ![Dashboard](Imgs/dashboard.png)
 
----
-
-## 4. Example Prototype Reference
-
-To help you get started, review the official example prototype. This implementation demonstrates how to capture an image, trigger the vehicle headlights, and sound the horn when a sleepy driver is detected:
-
-* [Example Prototype Code Link](https://playground.digital.auto/model/67d2eb3e880fe100272d033e/library/prototype/6a9684f804417b08156ceb7a/code)
-
----
-
-## 5. Accessing Camera Feeds and Endpoints
+## 4. Accessing Camera Feeds and Endpoints
 
 Three dedicated cameras have been set up for the hackathon. You can access their live feeds using the following stream links:
 
@@ -179,30 +183,18 @@ Additional endpoints (`/xxx1`, `/xxx2`, `/xxx3`) are provided where your applica
 
 *Tip: Check the example prototype code for a working implementation of these API integrations.*
 
-## 7. Getting Started
+## 5. Example Prototype Reference
 
-### Step 1 – Choose a Challenge
+To help you get started, review the official example prototype. This implementation demonstrates how to capture an image, trigger the vehicle headlights, and sound the horn when a sleepy driver is detected:
 
-Select one of the three challenge areas.
+* [Example Prototype Code Link](https://playground.digital.auto/model/67d2eb3e880fe100272d033e/library/prototype/6a9684f804417b08156ceb7a/code)
 
-### Step 2 – Define Your Use Case
 
-Define:
+# Final Pitch & Showcase
 
-- What problem are you solving?
-- Who is the user?
-- What should the camera or device detect?
-- What should happen after an event is detected?
+Before stepping into your final showcase, review the guidance below on how to structure your presentation, meet the expected deliverables, and hit the key criteria the judges are looking for.
 
-### Step 3 – Build Your Prototype
-
-_Technical instructions will be added here._
-
-### Step 4 – Connect to digital.auto
-
-_Technical instructions will be added here._
-
-### Step 5 – Demonstrate Your Idea
+## Demonstrate Your Idea
 
 Prepare a short demonstration showing:
 
@@ -212,8 +204,7 @@ Prepare a short demonstration showing:
 - Vehicle or digital.auto interaction
 - Potential future BYOD extensions
 
-
-## 8. Expected Output
+## Expected Output
 
 Each team should aim to provide:
 
@@ -231,7 +222,7 @@ Optional:
 - Feedback on the BYOD platform
 
 
-## 9. Evaluation Criteria
+## Evaluation Criteria
 
 Potential evaluation dimensions:
 
@@ -245,7 +236,7 @@ Potential evaluation dimensions:
 - Demo quality
 
 
-## 10. Feedback & Research
+# Feedback & Research
 
 The hackathon also helps us understand how developers interact with BYOD concepts and software-defined vehicle platforms.
 
@@ -261,40 +252,35 @@ Participants may be invited to share feedback regarding:
 More information will be provided during the event.
 
 
-## 11. Resources
+# Resources
 
-### digital.auto
+## digital.auto
 
-_TBD_
+[Digital.auto](https://www.digital.auto/)
 
-### Documentation
+## Documentation
 
-_TBD_
+[DigitalAuto Documentation](https://docs.digital.auto/)
 
-### Example Repositories
+## Example Repositories
 
-_TBD_
+Example prototype for the cam feed usage can be accesse here. 
 
-### Additional Resources
+* [Example Prototype Code Link](https://playground.digital.auto/model/67d2eb3e880fe100272d033e/library/prototype/6a9684f804417b08156ceb7a/code)
 
-_TBD_
 
----
+## Additional Resources
 
-## 13. Contacts
+Radar Sensor
+Bosch Gas Sensor
+PM Sensor
 
-### Hackathon Support
 
-Chris Cheng
-Mohammed Raihan Soniwala
-
-### Technical Support
+# Technical & Hackathon Support
 
 Chris Cheng
 Mohammed Raihan Soniwala
 
----
-
-## License
+# License
 
 _TBD_
