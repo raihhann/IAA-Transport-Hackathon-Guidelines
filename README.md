@@ -137,10 +137,10 @@ Define:
 
 ## 1. Getting Started with digital.auto Playground
 
-1.1 **Access the Platform**: Open the [digital.auto Playground](https://playground.digital.auto/).
-1.2 **Login & Select Model**: Log in, select your vehicle models, and choose the vehicle model **IAA Hannover Hackathon 2026**.
+1.1 **Access the Platform**: Open the [digital.auto Playground](https://playground.digital.auto/).  
+1.2 **Login & Select Model**: Log in, select your vehicle models, and choose the vehicle model **IAA Hannover Hackathon 2026**.  
 1.3 **Create a Prototype**: Set up your prototype and select a **multi-files project** and name it as your team name.
-   ![Create Prototype](Imgs/prototype%20name.png)
+   ![Create Prototype](Imgs/prototype%20name.png)  
 1.4 **Develop in SDV Code**: Navigate to the **SDV Code** tab to write your source code and manage your project files.
     ![File Structure & Prototype Name](Imgs/file%20struc.png)
 
@@ -149,9 +149,9 @@ Define:
 To execute your application inside the playground, you need to configure a runtime environment:
 
 2.1 Open the terminal by clicking the arrow icon located in the **bottom right corner**.
-   ![Terminal Arrow](Imgs/Terminal%20arrow.png)
+   ![Terminal Arrow](Imgs/Terminal%20arrow.png)  
 2.2 Locate the runtime box to view current runtime information, then select **add runtime**.
-   ![Runtime Box & Dropdown](Imgs/runtime%20box.png)
+   ![Runtime Box & Dropdown](Imgs/runtime%20box.png)  
 2.3 In the popup window, enter your assigned runtime name using the pre-filled prefix `Runtime-`.
    ![Runtime Name Input](Imgs/runtime%20name.png)
    * *Example*: For the name `IAA Hackathon`, enter `Runtime-IAA Hackathon`.
@@ -159,8 +159,8 @@ To execute your application inside the playground, you need to configure a runti
 
 ## 3. Utilizing the Dashboard
 
-* Use the **Dashboard** section to load plugins that allow you to monitor vehicle behavior virtually and track real-time API value changes.
-* Alternatively, you can embed and run a web application link directly within the dashboard view.
+Use the **Dashboard** section to load plugins that allow you to monitor vehicle behavior virtually and track real-time API value changes.  
+Alternatively, you can embed and run a web application link directly within the dashboard view.
 
 ![Dashboard](Imgs/dashboard.png)
 
@@ -252,22 +252,15 @@ More information will be provided during the event.
 
 # Resources
 
-digital.auto: [Link](https://www.digital.auto/)
-Wiki Documentation: [Link](https://docs.digital.auto/)
+digital.auto: [Link](https://www.digital.auto/)  
+Wiki Documentation: [Link](https://docs.digital.auto/)  
 Example Camera-based Prototype: [Link](https://playground.digital.auto/model/67d2eb3e880fe100272d033e/library/prototype/6a9684f804417b08156ceb7a/code)
-
-
-## Additional Resources
-
-Radar Sensor
-Bosch Gas Sensor
-PM Sensor
 
 
 # Technical & Hackathon Support
 
-Chris Cheng
-Mohammed Raihan Soniwala
+Chris Cheng: [LinkedIn](https://www.linkedin.com/in/xiangwei-cheng/)   
+Mohammed Raihan Soniwala: [LinkedIn](https://www.linkedin.com/in/raihan-edin/)
 
 # License
 
