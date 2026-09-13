@@ -1,7 +1,5 @@
 # IAA LCV BYOD Hackathon
 
-## Bring Your Own Device: Unlocking Innovation for Software-Defined Commercial Vehicles
-
 digital.auto and prototype.club invite teams to develop new solutions for Lightweight Commercial Vehicles (LCVs) based on a Bring-Your-Own-Device (BYOD) platform.
 
 The goal is to explore how external customer devices can be securely connected, onboarded, and integrated into software-defined commercial vehicles.
@@ -20,7 +18,7 @@ Participants will:
 - Explore how additional devices could be integrated in the future
 - Provide feedback on the BYOD concept and developer experience
 
-## Bring Your Own Device Concept
+## Bring-Your-Own-Device Concept
 
 ### What do we mean by BYOD?
 
@@ -88,7 +86,7 @@ Possible topics:
 - Well-being indicators
 
 
-## (Optional) Challange 4. Think Beyond the Camera
+### (Optional) Challange 4. Think Beyond the Camera
 
 The camera is the starting point, not the final goal.
 
@@ -139,22 +137,22 @@ Define:
 
 ## 1. Getting Started with digital.auto Playground
 
-1. **Access the Platform**: Open the [digital.auto Playground](https://playground.digital.auto/).
-2. **Login & Select Model**: Log in, select your vehicle models, and choose the vehicle model **IAA Hannover Hackathon 2026**.
-3. **Create a Prototype**: Set up your prototype and select a **multi-files project** and name it as your team name.
+1.1 **Access the Platform**: Open the [digital.auto Playground](https://playground.digital.auto/).
+1.2 **Login & Select Model**: Log in, select your vehicle models, and choose the vehicle model **IAA Hannover Hackathon 2026**.
+1.3 **Create a Prototype**: Set up your prototype and select a **multi-files project** and name it as your team name.
    ![Create Prototype](Imgs/prototype%20name.png)
-4. **Develop in SDV Code**: Navigate to the **SDV Code** tab to write your source code and manage your project files.
+1.4 **Develop in SDV Code**: Navigate to the **SDV Code** tab to write your source code and manage your project files.
     ![File Structure & Prototype Name](Imgs/file%20struc.png)
 
 ## 2. Configuring and Running Your Runtime
 
 To execute your application inside the playground, you need to configure a runtime environment:
 
-1. Open the terminal by clicking the arrow icon located in the **bottom right corner**.
+2.1 Open the terminal by clicking the arrow icon located in the **bottom right corner**.
    ![Terminal Arrow](Imgs/Terminal%20arrow.png)
-2. Locate the runtime box to view current runtime information, then select **add runtime**.
+2.2 Locate the runtime box to view current runtime information, then select **add runtime**.
    ![Runtime Box & Dropdown](Imgs/runtime%20box.png)
-3. In the popup window, enter your assigned runtime name using the pre-filled prefix `Runtime-`.
+2.3 In the popup window, enter your assigned runtime name using the pre-filled prefix `Runtime-`.
    ![Runtime Name Input](Imgs/runtime%20name.png)
    * *Example*: For the name `IAA Hackathon`, enter `Runtime-IAA Hackathon`.
    * **Note**: Your runtime name will be provided by your hackathon supervisor. Reach out to them directly if you haven't received it.
@@ -254,19 +252,9 @@ More information will be provided during the event.
 
 # Resources
 
-## digital.auto
-
-[Digital.auto](https://www.digital.auto/)
-
-## Documentation
-
-[DigitalAuto Documentation](https://docs.digital.auto/)
-
-## Example Repositories
-
-Example prototype for the cam feed usage can be accesse here. 
-
-* [Example Prototype Code Link](https://playground.digital.auto/model/67d2eb3e880fe100272d033e/library/prototype/6a9684f804417b08156ceb7a/code)
+digital.auto: [Link](https://www.digital.auto/)
+Wiki Documentation: [Link](https://docs.digital.auto/)
+Example Camera-based Prototype: [Link](https://playground.digital.auto/model/67d2eb3e880fe100272d033e/library/prototype/6a9684f804417b08156ceb7a/code)
 
 
 ## Additional Resources
