@@ -179,6 +179,8 @@ Additional endpoints (`/xxx1`, `/xxx2`, `/xxx3`) are provided where your applica
 * **CAM -2 Snapshot**: `yyyyyyyyyyyyyy`
 * **CAM -3 Snapshot**: `yyyyyyyyyyyyyy`
 
+**Note**: Links will be updated at the time of Hacakthon.
+
 *Tip: Check the example prototype code for a working implementation of these API integrations.*
 
 ## 5. Example Prototype Reference
