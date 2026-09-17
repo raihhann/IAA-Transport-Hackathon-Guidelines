@@ -168,14 +168,14 @@ Alternatively, you can embed and run a web application link directly within the 
 
 Three dedicated cameras have been set up for the hackathon. You can access their live feeds using the following stream links:
 
-* **CAM -1**: `xxxxxxxxxxxxxxxxxxx`
+* **CAM -1**: `https://domain-reenter-boxer.ngrok-free.dev/video_feed`
 * **CAM -2**: `xxxxxxxxxxxxxxxxxxx`
 * **CAM -3**: `xxxxxxxxxxxxxxxxxxx`
 
 ### Snapshot Upload Endpoints
-Additional endpoints (`/xxx1`, `/xxx2`, `/xxx3`) are provided where your application can post captured images or routine snapshots. Once uploaded, these snapshots can be accessed dynamically via the following URLs:
+Additional endpoints (`/upload_snapshot`, `/xxx2`, `/xxx3`) are provided where your application can post captured images or routine snapshots. Once uploaded, these snapshots can be accessed dynamically via the following URLs:
 
-* **CAM -1 Snapshot**: `yyyyyyyyyyyyyy`
+* **CAM -1 Snapshot**: `https://domain-reenter-boxer.ngrok-free.dev/view`
 * **CAM -2 Snapshot**: `yyyyyyyyyyyyyy`
 * **CAM -3 Snapshot**: `yyyyyyyyyyyyyy`
 
